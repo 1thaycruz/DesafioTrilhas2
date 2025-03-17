@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF; 
+    color: #292524; 
+    line-height: 1.6;
+    padding: 20px;
+}
+
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FEE7D6; 
+    border: 1px solid #D6D3D1; 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.heading1 {
+    font-size: 32px;
+    line-height: 120%;
+    font-weight: bold;
+    color: #2135A6; 
+    margin-bottom: 20px;
+}
+
+.heading2 {
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: bold;
+    color: #2135A6; 
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #292524; 
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #D6D3D1; 
+    border-radius: 4px;
+    font-size: 16px;
+    color: #57534E; 
+    background-color: #FFFFFF; 
+}
+
+.input-field:focus {
+    border-color: #F3541C; 
+    outline: none;
+}
+
+textarea.input-field {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Botões */
+.btn-primary, .btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.btn-primary {
+    background-color: #F67841; 
+    color: #FFFFFF; 
+}
+
+.btn-primary:hover {
+    background-color: #F3541C; 
+}
+
+.btn-secondary {
+    background-color: #E7E5E4; 
+    color: #292524; 
+    margin-left: 10px;
+}
+
+.btn-secondary:hover {
+    background-color: #D6D3D1; 
+}
+
+/* Ícones */
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+/* Botões de Curso */
+.course-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.course-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    background-color: #FFFFFF; 
+    border: 1px solid #D6D3D1;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.course-button:hover {
+    border-color: #F3541C; 
+    background-color: #FEE7D6; 
+}
+
+.course-icon {
+    width: 20px;
+    height: 20px;
+}
